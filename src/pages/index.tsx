@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
+import Auth from '~/features/Auth';
 
 const Home: NextPage = () => {
-  return <h1>Bora started</h1>;
+  return <Auth />;
 };
 
 export default Home;
