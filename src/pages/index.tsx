@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+
 import Auth from '~/features/Auth';
 
 const Home: NextPage = () => {
